@@ -57,12 +57,12 @@ st.write('Comparația modelelor de regresie')
 # 6. Afișarea unor exemple din setul de date
 st.subheader('Exemple din setul de date')
 
-# Afișarea primelor 10 rânduri din setul de date day_data
-st.dataframe(day_data.head(10))  # Aceasta va afișa primele 10 rânduri din 'day.csv'
+# Afișarea primelor 10 rânduri din setul de date day_data(primele 10)
+st.dataframe(day_data.head(10))  
 
-# Dacă vrei să afișezi și setul de date pentru 'hour.csv'
+# Afișarea setul de date pentru 'hour.csv'(primele 10)
 st.subheader('Exemple din setul de date pe oră')
-st.dataframe(hour_data.head(10))  # Aceasta va afișa primele 10 rânduri din 'hour.csv'
+st.dataframe(hour_data.head(10))  # 
 
 
 # Afișarea rezultatelor în interfață
